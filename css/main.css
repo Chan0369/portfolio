@@ -97,22 +97,33 @@ a:hover {
 .nav-label {
   cursor: pointer;
   font-size: 1.25rem;
+	display: inline-block;
+	width: 50px;
   position: absolute;
-  top: 3em;
-  right: -2em;
+  top: 1em;
+  right: 1em;
+}
+
+.nav-icon-open,
+.nav-icon-open {
+	display: block;
+  width: 100%;
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: black;
-}
-
-.nav-icon-open {
-  width: 20%;
-  margin: 0;
+  background-color: grey;
 }
 
 .nav-icon-close {
   display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-icon-open {
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-icon-close {
+	display: block;
 }
 
 .banner {
