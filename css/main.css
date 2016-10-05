@@ -139,6 +139,11 @@ h2 {
 	padding-top: 1em;
 }
 
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: lighter;
+}
+
 .info {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: lighter;
@@ -174,6 +179,24 @@ h3 {
 .work-5, .work-6, .work-7, .work-8 {
 	width: 80%;
 	padding-top: 1em;
+}
+
+h4 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #006974;
+}
+
+.name {
+	margin: 0;
+}
+
+.email {
+	margin: 0;
+}
+
+.link, .behance, .insta, .twitter {
+	width: 10%;
+	display: inline-block;
 }
 
 footer {
