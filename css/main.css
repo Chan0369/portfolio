@@ -207,6 +207,12 @@ footer {
 
 .cc {
 	margin: 0;
-	padding: 0;
+	padding-left: 1em;
 	font-size: 10pt;
+}
+
+.logo-2 {
+	width: 30%;
+	padding-right: 1em;
+	padding-top: 1em;
 }
