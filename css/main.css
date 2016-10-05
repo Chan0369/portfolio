@@ -17,7 +17,6 @@ body {
 }
 
 header {
-  background-color: #8fc7c3;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -29,14 +28,15 @@ header {
   width: 25%;
 	display: flex;
 	margin: 0;
+	position: absolute;
+	top: 1em;
+	left: 1em;
 }
 
 h1 {
   margin: 0;
   color: white;
   text-align: left;
-  padding-top: 1em;
-  padding-left: 1em;
 }
 
 img {
@@ -82,8 +82,8 @@ a:hover {
   padding-bottom: 0.5em;
 	width: 15rem;
 	position: absolute;
-	right: 0;
-	top: 100%;
+	right: 1em;
+	top: 28%;
 }
 
 .nav-check {
@@ -136,6 +136,7 @@ h2 {
 	color: #006974;
 	font-family: 'Josefin Sans', sans-serif;
 	font-style: oblique;
+	padding-top: 1em;
 }
 
 .info {
@@ -178,6 +179,7 @@ h3 {
 footer {
 	background-color: #006974;
 	color: white;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .cc {
