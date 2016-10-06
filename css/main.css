@@ -21,13 +21,12 @@ header {
   margin: 0;
   padding: 0;
   position: relative;
-
 }
 
 .logo {
-  width: 25%;
-	display: flex;
+  width: 30%;
 	margin: 0;
+	padding: 0;
 	position: absolute;
 	top: 1em;
 	left: 1em;
@@ -35,8 +34,8 @@ header {
 
 h1 {
   margin: 0;
-  color: white;
-  text-align: left;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
 }
 
 img {
@@ -47,7 +46,7 @@ nav {
   width: 100%;
   text-align: center;
   padding: 0;
-  background-color: white;
+  background-color: #8fc7c3;
 }
 
 ul {
@@ -83,7 +82,7 @@ a:hover {
 	width: 15rem;
 	position: absolute;
 	right: 1em;
-	top: 28%;
+	top: 40%;
 }
 
 .nav-check {
@@ -129,7 +128,6 @@ a:hover {
 
 .banner {
 	width: 100%;
-	overflow: hidden;
 }
 
 h2 {
@@ -141,7 +139,6 @@ h2 {
 
 p {
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: lighter;
 }
 
 .info {
