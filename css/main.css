@@ -23,6 +23,10 @@ header {
   position: relative;
 }
 
+.bg-color {
+  background-color: #8fc7c3;
+}
+
 .logo {
   width: 30%;
 	margin: 0;
@@ -60,7 +64,7 @@ li a {
   text-decoration: none;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  color: #8fc7c3;
+  color: #006974;
   font-family: 'Josefin Sans', sans-serif;
 
 }
@@ -82,7 +86,7 @@ a:hover {
 	width: 15rem;
 	position: absolute;
 	right: 1em;
-	top: 40%;
+	top: 80%;
 }
 
 .nav-check {
@@ -144,16 +148,17 @@ p {
 .info {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #8fc7c3;
-	text-align: left;
+	text-align: center;
 	padding-top: 1em;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 h3 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #006974;
 	padding-left: 0.5em;
+	padding-top: 1em;
 	padding-right: 0.5em;
 	margin: 0;
 }
@@ -177,6 +182,11 @@ h3 {
 	padding-top: 1em;
 }
 
+img:hover {
+	background-color: rgba(255, 225, 255, 0.85);
+}
+
+/*
 .lightbox {
 	position: fixed;
 	left: 0;
@@ -197,6 +207,7 @@ h3 {
 	border-radius: 6px;
 	box-shadow: 1px 1px 6px #000;
 }
+*/
 
 h4 {
 	font-family: 'Josefin Sans', sans-serif;
@@ -234,7 +245,46 @@ footer {
 	padding-top: 1em;
 }
 
+
+/*
+Beginning of portfolio.html
+*/
+
+
+.icon {
+	width: 35%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+.artwork {
+	width: 80%;
+}
+
+hr {
+    display: block;
+    border-style: solid;
+    color: #006974;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.brosmind {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.process {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
 @media only screen and (min-width: 38em) {
+
+	.logo {
+		width: 20%;
+	}
 
 	nav {
 		position: absolute;
@@ -267,8 +317,21 @@ footer {
 		display: none;
 	}
 
+	.info {
+		text-align: left;
+	}
+
 	.contact-pic {
 		padding-bottom: 2.5em;
+		width: 50%;
+	}
+
+	.icon {
+		width: 20%;
+	}
+
+	.artwork {
+		width: 50%;
 	}
 
 }
