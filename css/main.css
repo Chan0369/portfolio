@@ -154,6 +154,14 @@ p {
 	padding-right: 2em;
 }
 
+.info2 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #8fc7c3;
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
 h3 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #006974;
@@ -182,10 +190,37 @@ h3 {
 	padding-top: 1em;
 }
 
-img:hover {
+.work-1:hover {
 	background-color: #8fc7c3;
 }
 
+.work-2:hover {
+	background-color: #8fc7c3;
+}
+
+.work-3:hover {
+	background-color: #8fc7c3;
+}
+
+.work-4:hover {
+	background-color: #8fc7c3;
+}
+
+.work-5:hover {
+	background-color: #8fc7c3;
+}
+
+.work-6:hover {
+	background-color: #8fc7c3;
+}
+
+.work-7:hover {
+	background-color: #8fc7c3;
+}
+
+.work-8:hover {
+	background-color: #8fc7c3;
+}
 /*
 .lightbox {
 	position: fixed;
@@ -273,11 +308,34 @@ hr {
 .brosmind {
 	padding-left: 1.5em;
 	padding-right: 1.5em;
+	padding-bottom: 3em;
+}
+
+.h3-p {
+	background-color: #006974;
+	color: white;
+	padding-bottom: 1em;
+	margin: 0;
 }
 
 .process {
 	padding-left: 2em;
 	padding-right: 2em;
+	color: white;
+}
+
+.process-bg {
+	background-color: #006974;
+	padding-bottom: 2em;
+}
+
+.challenges {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.footer2 {
+	background-color: #8fc7c3;
 }
 
 @media only screen and (min-width: 38em) {
@@ -317,7 +375,7 @@ hr {
 		display: none;
 	}
 
-	.info {
+	.info, .info2 {
 		text-align: left;
 	}
 
@@ -331,7 +389,26 @@ hr {
 	}
 
 	.artwork {
-		width: 50%;
+		width: 80%;
+	}
+
+	.brosmind {
+		padding-left: 8em;
+		padding-right: 8em;
+	}
+
+	.h3-p {
+		background-color: white;
+		color: #006974;
+	}
+
+	.process-bg {
+		padding-top: 2.5em;
+	}
+
+	.challenges {
+		padding-left: 8em;
+		padding-right: 8em;
 	}
 
 }
