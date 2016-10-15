@@ -362,6 +362,10 @@ hr {
 	color: white;
 }
 
+.btn {
+	margin-bottom: 2em;
+}
+
 @media only screen and (min-width: 38em) {
 
 	.logo {
@@ -436,6 +440,10 @@ hr {
 
 	.challenges-bg {
 		padding-bottom: 2em;
+	}
+
+	.btn {
+		width: 30%;
 	}
 
 }
