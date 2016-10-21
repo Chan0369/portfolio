@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+  <header class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+      <img class="banner" src="http://placehold.it/1600x1000" alt="">
+    </div>
+
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+      <img class="logo" src="images/logo.svg" alt="">
+    </div>
+
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+      <nav>
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="nav-label" for="nav-check">
+          <img class="nav-icon-open" src="images/nav-bar-open.svg" alt="Open Navigation">
+          <img class="nav-icon-close" src="images/nav-bar-close.svg" alt="Close Navigation">
+        </label>
+        <ul class="nav">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#work">My Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{content}}
+  </main>
+
+  </body>
+  </html>
