@@ -149,6 +149,10 @@ p {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+.profile {
+	width: 50%;
+}
+
 .info {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #8fc7c3;
