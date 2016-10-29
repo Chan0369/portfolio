@@ -1,0 +1,4 @@
+Sitemap: https://bettychan.ca/sitemap.xml
+
+User-agent: *
+Disallow: /img

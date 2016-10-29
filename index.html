@@ -25,17 +25,20 @@ layout: default
       <h2 class="text-center" id="work">My Work</h2>
     </div>
 
-    <div class="thumbnails">
-      <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center">
-        <a href="portfolio.html"><img class="work-1" src="images/brosmind.jpg" alt=""></a>
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-            <h3 class="title-1 padding-left milli">“Outdoor Summer Days” Brosmind Inspired</h3>
-            <p class="p-1 padding-left">Illustration</p>
-          </div>
-      </div>
 
-      <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center">
-        <a href="http://placehold.it/500x500"><img class="work-2" src="http://placehold.it/500x500" alt=""></a>
+    <div class="thumbnails">
+      {% for portfolio in site.data.portfolio-work-list %}
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center">
+          <a href="{{site.baseurl}}/{{portfolio.link}}"><img class="work-1" src="{{site.baseurl}}/{{portfolio.image}}" alt=""></a>
+          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+            <h3 class="title-1 padding-left milli">{{portfolio.title}}</h3>
+            <p class="p-1 padding-left">{{portfolio.media}}</p>
+          </div>
+        </div>
+      {% endfor %}
+
+      <!-- <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center">
+        <a href="http://placehold.it/500x500"><img class="work-2" src="images/liquid-photography.jpg" alt=""></a>
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
             <h3 class="title-2 padding-left milli">Bath & Body Works Holiday Lotion</h3>
             <p class="p-2 padding-left">Product Photography</p>
@@ -43,7 +46,7 @@ layout: default
       </div>
 
       <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center">
-        <a href="http://placehold.it/500x500"><img class="work-3" src="http://placehold.it/500x500" alt=""></a>
+        <a href="http://placehold.it/500x500"><img class="work-3" src="images/yoga101.jpg" alt=""></a>
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
             <h3 class="title-3 padding-left milli">Yoga 101 Newsletter</h3>
             <p class="p-3 padding-left">Typography</p>
@@ -61,8 +64,8 @@ layout: default
       <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center">
         <a href="http://placehold.it/500x500"><img class="work-5" src="http://placehold.it/500x500" alt=""></a>
           <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-            <h3 class="title-5 padding-left milli">WWF Annual Report</h3>
-            <p class="p-5 padding-left">Typography</p>
+            <h3 class="title-5 padding-left milli">Doughnuts! Quote</h3>
+            <p class="p-5 padding-left">Motion Graphics, Parallax Animation</p>
           </div>
       </div>
 
@@ -88,14 +91,14 @@ layout: default
             <h3 class="title-8 padding-left milli">Choice Organic Teas Repackaging</h3>
             <p class="p-8 padding-left">Packaging, Branding</p>
           </div>
-      </div>
+      </div> -->
     </div>
 
       <div class="lightbox">
         <div class="lightbox-container">
           <img class="lightbox-img" alt="">
         </div>
-      </div
+      </div>
 
     <div class="pad-b-2">
       <div class="unit xs-1 s-1 m-1 l-1 xl-1 pad-top-half">
@@ -109,7 +112,7 @@ layout: default
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center">
         <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
           <h4 class="name pad-t">Betty Chan</h4>
-          <p class="title-name">- UX/UI - Motion - Packaging -</p>
+          <p class="title-name">- Motion - Packaging - Branding -</p>
           <p class="email">chanbikyen.betty@gmail.com</p>
           <p class="phone">(613) 857-1528</p>
         </div>

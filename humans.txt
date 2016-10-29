@@ -1,0 +1,28 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Betty Chan <hey@bettychan.ca>
+Site: http://bettychan.ca/
+Github: https://github.com/chan0369
+Twitter: @Betty94C
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+
+---
+
+#TECHNOLOGY
+
+## Software
+
+- Atom
+- Git + Github
+
+## Hosting
+
+- Hover <https://hover.com>
+- Cloudflare <https://cloudflare.com>
