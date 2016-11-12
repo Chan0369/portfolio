@@ -1,16 +1,16 @@
 - title: "Outdoor Summer Days' Brosmind Inspired"
   media: "Illustration"
   link: "portfolio"
-  image: "images/brosmind.jpg"
+  image: "images/brosmind-ice-cream.jpg"
 
 - title: "Bath & Body Works Holiday Lotion"
   media: "Product Photography"
-  link: ""
+  link: "portfolio-02"
   image: "images/liquid-photography.jpg"
 
-- title: "Flight Time"
-  media: "Typography"
-  link: ""
+- title: "Flight Time App"
+  media: "Motion, UX/UI, Material Design"
+  link: "portfolio-03"
   image: "images/flight-time.jpg"
 
 - title: "CHEO Annual Report"
@@ -23,10 +23,10 @@
   link: ""
   image: "images/parallax-animation.jpg"
 
-- title: "Conan Campaign"
-  media: "Print Advertising"
+- title: "Bubble Tea Factory"
+  media: "Illustration, Isometric Dssign"
   link: ""
-  image: "images/canon-campagin.jpg"
+  image: "images/isometric-cover.jpg"
 
 - title: "Mini Yogurt Bites"
   media: "Stop Motion, Motion Grpahics"
