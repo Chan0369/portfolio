@@ -329,6 +329,10 @@ Beginning of portfolio.html
 }
 
 .artwork {
+	width: 90%;
+}
+
+.artwork-2 {
 	width: 80%;
 }
 
@@ -456,6 +460,15 @@ hr {
 	.artwork {
 		width: 80%;
 	}
+
+	.artwork-2 {
+		width: 50%;
+	}
+
+.work-discrption {
+	padding-left:3.5em;
+	padding-right: 3.5em;
+}
 
 	.brosmind {
 		padding-left: 8em;
