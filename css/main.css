@@ -282,6 +282,9 @@ h4 {
 }
 
 .name {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #006974;
 	margin: 0;
 }
 
@@ -337,7 +340,13 @@ hr {
     margin: 0 auto;
 }
 
-.brosmind {
+.motion-vid {
+	width: 90%;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.work-discrption {
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 	padding-bottom: 3em;
