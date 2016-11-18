@@ -336,6 +336,14 @@ Beginning of portfolio.html
 	width: 80%;
 }
 
+.artwork-4 {
+	width: 70%;
+}
+
+.pages {
+	width: 80%;
+}
+
 hr {
     display: block;
     border-style: solid;
@@ -463,6 +471,10 @@ hr {
 
 	.artwork-2 {
 		width: 70%;
+	}
+
+	.artwork-4 {
+		width: 50%;
 	}
 
 .work-discrption {
