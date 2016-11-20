@@ -341,26 +341,28 @@ Beginning of portfolio.html
 	width: 70%;
 }
 
-.artwork-6 {
-	width: 80%;
-}
-
 .pages {
 	width: 80%;
 }
 
-hr {
-    display: block;
-    border-style: solid;
-    color: #006974;
-    width: 10%;
-    margin: 0 auto;
+.artwork-6 {
+	width: 80%;
+}
+
+.artwork-8 {
+	width: 50%;
 }
 
 .motion-vid {
-	width: 90%;
-	margin-left: 1em;
-	margin-right: 1em;
+	width: 100%;
+}
+
+hr {
+    display: block;
+    border-style: 5px solid #006974;
+    width: 10%;
+    margin: 0 auto;
+		padding: 0;
 }
 
 .work-discrption {
@@ -480,6 +482,12 @@ hr {
 
 	.artwork-4 {
 		width: 50%;
+	}
+
+	.motion-vid {
+		width: 80%;
+		margin-left: 1em;
+		margin-right: 1em;
 	}
 
 .work-discrption {
