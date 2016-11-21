@@ -359,13 +359,19 @@ Beginning of portfolio.html
 
 hr {
     display: block;
-    border-style: 5px solid #006974;
-    width: 10%;
+    border-style: 10px solid #006974;
+    width: 5%;
     margin: 0 auto;
 		padding: 0;
 }
 
 .work-discrption {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-bottom: 3em;
+}
+
+.work-discrption-2 {
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 	padding-bottom: 3em;
@@ -490,10 +496,15 @@ hr {
 		margin-right: 1em;
 	}
 
-.work-discrption {
-	padding-left:3.5em;
-	padding-right: 3.5em;
-}
+	.work-discrption {
+		padding-left: 3.5em;
+		padding-right: 3.5em;
+	}
+
+	.work-discrption-2 {
+		padding-left: 15em;
+		padding-right: 15em;
+	}
 
 	.brosmind {
 		padding-left: 8em;
