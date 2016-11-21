@@ -502,8 +502,8 @@ hr {
 	}
 
 	.work-discrption-2 {
-		padding-left: 15em;
-		padding-right: 15em;
+		padding-left: 12em;
+		padding-right: 12em;
 	}
 
 	.brosmind {
@@ -532,4 +532,12 @@ hr {
 		width: 30%;
 	}
 
+}
+
+@media only screen and (min-width: 62em) {
+
+	.work-discrption-2 {
+		padding-left: 15em;
+		padding-right: 15em;
+	}
 }
