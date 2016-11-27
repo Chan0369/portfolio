@@ -1,3 +1,22 @@
+.lightbox {
+	display: none;
+	visibility: hidden;
+}
+
+.lightbox.active {
+	display: block;
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -69,16 +88,15 @@ li a {
 
 }
 
-li:hover {
-  background-color: #006974;
-}
-
 a {
 	text-decoration: none;
 }
 
-a:hover {
+
+
+.underline:hover {
   color: white;
+	border-bottom: thick solid #fff;
 }
 
 .nav {
@@ -168,6 +186,18 @@ p {
 	text-align: center;
 	padding-left: 2em;
 	padding-right: 2em;
+}
+
+.blur img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.blur img:hover {
+  -webkit-filter: blur(2px);
 }
 
 h3 {
@@ -334,7 +364,7 @@ Beginning of portfolio.html
 }
 
 .artwork-2 {
-	width: 80%;
+	width: 800%;
 }
 
 .artwork-4 {

@@ -25,14 +25,22 @@ layout: default
       <h2 class="text-center" id="work">- My Work -</h2>
     </div>
 
-
+<!--href="{{site.baseurl}}/{{portfolio.link}}"  -->
     <div class="thumbnails">
       {% for portfolio in site.data.portfolio-work-list %}
-        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center">
-          <a href="{{site.baseurl}}/{{portfolio.link}}"><img class="work-1" src="{{site.baseurl}}/{{portfolio.image}}" alt=""></a>
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-            <h3 class="title-1 padding-left milli">{{portfolio.title}}</h3>
-            <p class="p-1 padding-left">{{portfolio.media}}</p>
+        <div class="container unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center ">
+          <div class="text-center blur">
+            <div class="pic lightbox-click">
+              <img class="work-1"  data-name="{{portfolio.link}}" src="{{site.baseurl}}/{{portfolio.image}}" alt="">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+              <h3 class="title-1 padding-left milli">{{portfolio.title}}</h3>
+              <p class="p-1 padding-left">{{portfolio.media}}</p>
+            </div>
+          </div>
+          <div id="{{portfolio.link}}" class="lightbox">
+            {% assign data=site.data[portfolio.link] %}
+            {% include portfolio.html data=data %}
           </div>
         </div>
       {% endfor %}
