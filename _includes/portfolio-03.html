@@ -1,20 +1,20 @@
 {% assign data=include.data %}
 
-<div>
-  <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center pad-t-2 pad-b">
-    <img class="artwork-2" src="{{site.baseurl}}/{{data.media}}" alt="">
-  </div>
-
-  <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center milli pad-t">
-    <h2>{{data.title}}</h2>
-    <hr class="center">
-    <p class="work-discrption-2">{{data.discription}}</p>
-  </div>
+<div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center pad-t-2 pad-b">
+  <iframe class="motion-vid" src="https://player.vimeo.com/video/190503128" width="840" height="560" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
+<div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center milli">
+  <h2>{{data.title}}</h2>
+</div>
+<hr class="center">
 <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
-  <h3 class="h3-p">{{data.heading2}}</h3>
+  <p class="work-discrption-2">{{data.discription}}</p>
 </div>
+
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
+    <h3 class="h3-p">{{data.heading2}}</h3>
+  </div>
 
 <div class="process-bg">
   <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center">

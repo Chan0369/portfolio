@@ -28,6 +28,7 @@ layout: default
 <!--href="{{site.baseurl}}/{{portfolio.link}}"  -->
     <div class="thumbnails">
       {% for portfolio in site.data.portfolio-work-list %}
+        <p style="color:black;position:fixed;background:white;">{{portfolio}}</p>
         <div class="container unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 text-center ">
           <div class="text-center blur">
             <div class="pic lightbox-click">
@@ -40,7 +41,7 @@ layout: default
           </div>
           <div id="{{portfolio.link}}" class="lightbox">
             {% assign data=site.data[portfolio.link] %}
-            {% include portfolio.html data=data %}
+            {% include {{portfolio.link}}.html data=data %}
           </div>
         </div>
       {% endfor %}
