@@ -1,22 +1,3 @@
-.lightbox {
-	display: none;
-	visibility: hidden;
-}
-
-.lightbox.active {
-	display: block;
-	visibility: visible;
-}
-
-
-
-
-
-
-
-
-
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -91,8 +72,6 @@ li a {
 a {
 	text-decoration: none;
 }
-
-
 
 .underline:hover {
   color: white;
@@ -258,6 +237,16 @@ h3 {
 
 .work-8:hover {
 	background-color: #8fc7c3;
+}
+
+.lightbox {
+	display: none;
+	visibility: hidden;
+}
+
+.lightbox.active {
+	display: block;
+	visibility: visible;
 }
 
 /*
@@ -458,8 +447,29 @@ hr {
 	margin-bottom: 2em;
 }
 
-@media only screen and (min-width: 38em) {
+.wrong {
+	color: #8fc7c3;
+	margin: 0;
+	padding-top: 1em;
+}
 
+.not-found {
+	margin: 0;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.grid .wrong-img {
+	padding: 0;
+	width: 300px;
+}
+
+.wrong-2 {
+	margin: 0;
+	padding-top: 1em;
+}
+
+@media only screen and (min-width: 38em) {
 	.logo {
 		width: 20%;
 	}
@@ -485,8 +495,9 @@ hr {
 		display: inline-block;
 		width: 100%;
 		position: absolute;
-		right: 1em;
+		right: 2em;
 		text-align: right;
+		top: 1em;
 
 	}
 
@@ -562,10 +573,17 @@ hr {
 		width: 30%;
 	}
 
+	.wrong {
+		padding-top: 0;
+	}
+
+	.wrong-img {
+		width: 30%;
+		height: 30%;
+	}
 }
 
 @media only screen and (min-width: 62em) {
-
 	.work-discrption-2 {
 		padding-left: 15em;
 		padding-right: 15em;
