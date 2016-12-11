@@ -16,10 +16,9 @@
 // });
 
 $(function () {
-  $('.lightbox-click').click(function (e) {
+  $('.lightbox-click').on('click touchstart', function (e) {
     console.log($(e.target));
     $('#' + $(e.target).data('name')).toggleClass('active');
-    $('html').addClass('no-scroll');
 
     $('#' + $(e.target).data('name')).click(function (e) {
       $(this).removeClass('active');
