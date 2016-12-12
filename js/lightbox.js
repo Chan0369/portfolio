@@ -1,5 +1,9 @@
-$(document).ready(function () {
-  alert('loaded this scrupt');
+$(function () {
+  $('body').scroll(function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+  });
+  
   $('.lightbox-click').bind('touchstart click', function (e) {
     e.preventDefault();
     e.stopPropagation();
