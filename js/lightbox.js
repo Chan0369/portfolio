@@ -1,6 +1,6 @@
 $(function () {
   $('.lightbox-click').bind('click touchstart', function (e) {
-    console.log('Hello!');
+    alert('Hello!');
     $('#' + $(e.target).data('name')).toggleClass('active');
 
     $('#' + $(e.target).data('name')).bind('click touchstart', function (e) {
