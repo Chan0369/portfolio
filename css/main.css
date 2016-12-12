@@ -243,6 +243,10 @@ h3 {
 	background-color: #8fc7c3;
 }
 
+.lightbox-click * {
+	cursor: pointer;
+}
+
 .lightbox {
 	display: none;
 	visibility: hidden;
