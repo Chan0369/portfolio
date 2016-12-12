@@ -1,26 +1,8 @@
-// var $thumbs = $('.thumbnails');
-// var $lbImg = $('.lightbox-img');
-// var $lb = $('.lightbox');
-// var $btnClose $('.btn-close')
-//
-//
-// $thumbs.on('click', 'a', function (e) {
-//   e.preventDefault();
-//   var big = $(this).attr('href');
-//   $lbImg.attr('src', big);
-//   $lb.attr('data-state', 'visible');
-// })
-//
-// $btnClose.on('click', function () {
-//   $lb.attr('data-state', 'hidden');
-// });
-
 $(function () {
-  $('.lightbox-click').on('click touchstart', function (e) {
-    console.log($(e.target));
+  $('.lightbox-click').bind('click touchstart', function (e) {
     $('#' + $(e.target).data('name')).toggleClass('active');
 
-    $('#' + $(e.target).data('name')).click(function (e) {
+    $('#' + $(e.target).data('name')).bind('click touchstart', function (e) {
       $(this).removeClass('active');
       $('html').removeClass('no-scroll');
     });
