@@ -1,10 +1,6 @@
-$(function () {
-  $('.lightbox-click').mouseup(function (e) {
-    alert('yolo');
-  });
-
+$(document).ready(function () {
+  alert('loaded this scrupt');
   $('.lightbox-click').bind('touchstart click', function (e) {
-    alert('Hello!');
     e.preventDefault();
     e.stopPropagation();
     $('#' + $(e.target).data('name')).toggleClass('active');
