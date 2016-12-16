@@ -1,12 +1,8 @@
 $(function () {
-  $('body').scroll(function (e) {
-      e.preventDefault();
-      e.stopPropagation();
-  });
-  
   $('.lightbox-click').bind('touchstart click', function (e) {
     e.preventDefault();
     e.stopPropagation();
+    $('html').addClass('no-scroll');
     $('#' + $(e.target).data('name')).toggleClass('active');
 
     $('#' + $(e.target).data('name')).bind('touchstart click', function (e) {
