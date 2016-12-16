@@ -39,6 +39,7 @@ layout: default
             </div>
           </div>
           <div id="{{portfolio.link}}" class="lightbox">
+            <span id="{{portfolio.link}}" class="close icon ion-ios-close-outline"></span>
             {% assign data=site.data[portfolio.link] %}
             {% include {{portfolio.link}}.html data=data %}
           </div>

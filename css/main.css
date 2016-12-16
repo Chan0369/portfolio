@@ -252,6 +252,21 @@ h3 {
 	cursor: pointer;
 }
 
+.lightbox .close {
+	position: absolute;
+	transition: all 0.2s ease;
+	right: 0;
+	top: 0;
+	padding: 15px;
+	font-size: 1.5em;
+	width: auto;
+}
+
+.lightbox .close:hover {
+	transform: scale(0.9);
+	cursor: pointer;
+}
+
 .lightbox {
 	display: none;
 	visibility: hidden;
@@ -270,7 +285,7 @@ h3 {
 	overflow-y: scroll;
 }
 
-.lightbox.active * {
+.lightbox.active *:not[.close] {
 	position: relative;
 }
 

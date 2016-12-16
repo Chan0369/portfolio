@@ -3,10 +3,14 @@ $(function () {
     e.preventDefault();
     e.stopPropagation();
     $('html').addClass('no-scroll');
-    $('#' + $(e.target).data('name')).toggleClass('active');
+    var lightbox = $('#' + $(e.target).data('name')).toggleClass('active');
 
-    $('#' + $(e.target).data('name')).bind('touchstart click', function (e) {
-      $(this).removeClass('active');
+    var close = function() {
+      lightbox.removeClass('active');
+    };
+
+    $('#' + $(e.target).data('name') + '.close').bind('touchstart click', function (e) {
+      close();
       $('html').removeClass('no-scroll');
     });
   });
